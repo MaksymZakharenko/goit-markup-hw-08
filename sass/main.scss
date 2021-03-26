@@ -1,0 +1,26 @@
+// Utils
+
+@import "./utils/activity";
+@import "./utils/global-settings";
+@import "./utils/hidden";
+
+//Base
+
+@import "./base/common";
+@import "./base/normalize";
+
+// Components
+
+@import "./components/backdrop";
+@import "./components/container";
+@import "./components/section";
+
+// Layout
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/activity";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
