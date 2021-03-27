@@ -1,3 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-font-color);
@@ -9,6 +19,9 @@ body {
     padding: 0px;
     margin: 0px;
     min-height: 100vh;
+    min-width: 230px;
+    height: auto;
+    width: 100%;
 }
 
 img {
