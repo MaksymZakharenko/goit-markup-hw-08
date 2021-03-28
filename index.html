@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit_markup_hw_7</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-     <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- верхняя линия-->
-<header>
+    <header>
       <div class="container section header">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo"><span class="header-logo-color">Web</span>Studio</a>
@@ -97,25 +97,47 @@
         </div>
       </section>
       <!--чем мы занимаемся-->
-      <!-- <section class="section activity">
+      <section class="section activity">
         <div class="container">
           <h2 class="activity-title">Чем мы занимаемся</h2>
           <ul class="activity-menu">
             <li class="activity-li">
-              <img src="./img/img1.jpg" alt="Человек пишет код на компьютере" width="370" height="294" />
+              <picture>
+                <source
+                  srcset="./img/desktop/title/activity_one_d.jpg 1x, ./img/desktop/title/activity_one_d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img src="./img/desktop/title/activity_one_d.jpg" alt="Человек пишет код на компьютере" class="activity-li-img" />
+              </picture>
               <h3 class="activity-text">десктопные приложения</h3>
             </li>
             <li class="activity-li">
-              <img src="./img/img2.jpg" alt="Человек провеяет разметку страницы на телефоне" width="370" height="294" />
+              <picture>
+                <source
+                  srcset="./img/desktop/title/activity_two_d.jpg 1x, ./img/desktop/title/activity_two_d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img src="./img/desktop/title/activity_two_d.jpg" alt="мобильные приложения" class="activity-li-img" />
+              </picture>
               <h3 class="activity-text">мобильные приложения</h3>
             </li>
             <li class="activity-li">
-              <img src="./img/img3.jpg" alt="Человек подбирает цветовую гамму для сайта" width="370" height="294" />
+              <picture>
+                <source
+                  srcset="./img/desktop/title/activity_three_d.jpg 1x, ./img/desktop/title/activity_three_d@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./img/desktop/title/activity_three_d.jpg"
+                  alt="Человек подбирает цветовую гамму для сайтая"
+                  class="activity-li-img"
+                />
+              </picture>
               <h3 class="activity-text">дизайнерские решения</h3>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--наша комманда-->
       <section class="section team">
         <div class="container">
@@ -123,11 +145,23 @@
           <ul class="team-menu">
             <li class="team-menu-li">
               <ul class="team-menu-li-people">
-                <li><picture>
-                  <source></source>
-                  <source></source>
-                </picture>
-                <img src="./img/Product_Designer.jpg" alt="Product_Designer" class="team-menu-li-people-img"/></li>
+                <li>
+                  <picture>
+                    <source
+                      srcset="./img/desktop/title/designer_d.jpg 1x, ./img/desktop/title/designer_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/title/designer_t.jpg 1x, ./img/tablet/title/designer_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/title/designer_m.jpg 1x, ./img/mobile/title/designer_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/mobile/title/designer_m.jpg" alt="Product_Designer" class="team-menu-li-people-img" />
+                  </picture>
+                </li>
                 <li><h3 class="team-menu-li-people-name">Игорь Демьяненко</h3></li>
                 <li><p class="team-menu-li-position">Product Designer</p></li>
                 <li>
@@ -166,7 +200,21 @@
             </li>
             <li class="team-menu-li">
               <ul class="team-menu-li-people">
-                <li><img src="./img/Frontend_Developer.jpg" alt="Frontend_Developer" class="team-menu-li-people-img"/></li>
+                <picture>
+                  <source
+                    srcset="./img/desktop/title/developer_d.jpg 1x, ./img/desktop/title/developer_d@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="./img/tablet/title/developer_t.jpg 1x, ./img/tablet/title/developer_t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./img/mobile/title/developer_m.jpg 1x, ./img/mobile/title/developer_m@2x.jpg 2x"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/mobile/title/developer_m.jpg" alt="Product_Designer" class="team-menu-li-people-img" />
+                </picture>
                 <li><h3 class="team-menu-li-people-name">Ольга Репина</h3></li>
                 <li><p class="team-menu-li-position">Frontend Developer</p></li>
                 <li>
@@ -205,7 +253,21 @@
             </li>
             <li class="team-menu-li">
               <ul class="team-menu-li-people">
-                <li><img src="./img/Marketing.jpg" alt="Marketing" class="team-menu-li-people-img"/></li>
+                <picture>
+                  <source
+                    srcset="./img/desktop/title/marketing_d.jpg 1x, ./img/desktop/title/marketing_d@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="./img/tablet/title/marketing_t.jpg 1x, ./img/tablet/title/marketing_t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./img/mobile/title/marketing_m.jpg 1x, ./img/mobile/title/marketing_m@2x.jpg 2x"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/mobile/title/marketing_m.jpg" alt="Product_Designer" class="team-menu-li-people-img" />
+                </picture>
                 <li><h3 class="team-menu-li-people-name">Николай Тарасов</h3></li>
                 <li><p class="team-menu-li-position">Marketing</p></li>
                 <li>
@@ -244,9 +306,23 @@
             </li>
             <li class="team-menu-li">
               <ul class="team-menu-li-people">
-                <li><img src="./img/UI_Designer.jpg" alt="UI_Designer" class="team-menu-li-people-img"/></li>
+                <picture>
+                  <source
+                    srcset="./img/desktop/title/uidesigner_d.jpg 1x, ./img/desktop/title/uidesigner_d@2x.jpg 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="./img/tablet/title/uidesigner_t.jpg 1x, ./img/tablet/title/uidesigner_t@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="./img/mobile/title/uidesigner_m.jpg 1x, ./img/mobile/title/uidesigner_m@2x.jpg 2x"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/mobile/title/uidesigner_m.jpg" alt="Product_Designer" class="team-menu-li-people-img" />
+                </picture>
                 <li><h3 class="team-menu-li-people-name">Михаил Ермаков</h3></li>
-                <li><p class="team-menu-li-position">PUI Designer</p></li>
+                <li><p class="team-menu-li-position">UI Designer</p></li>
                 <li></li>
                 <li>
                   <ul class="team-sites-icon">
@@ -347,7 +423,9 @@
             <address class="footer-address">
               <ul class="footer-address-text">
                 <li class="footer-contact">
-                  <a href="https://goo.gl/maps/boytBuuAJyoT8WRG6" target="_blank" class="footer-address-link">г. Киев, пр-т Леси Украинки, 26</a>
+                  <a href="https://goo.gl/maps/boytBuuAJyoT8WRG6" target="_blank" class="footer-address-text"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
                 </li>
                 <li class="footer-contact">
                   <a href="mailto:info@devstudio.com" class="footer-address-link">info@devstudio.com</a>
@@ -395,22 +473,20 @@
               </li>
             </ul>
           </div>
-          <form>
-            <div class="footer-podpiska">
-              <div class="footer-podpiska-links">
-                <p class="footer-podpiska-title">подпишитесь на рассылку</p>
-                <label>
-                  <input class="footer-podpiska-input-form" type="email" name="email" placeholder="E-mail" />
-                </label>
-              </div>
-              <div class="footer-podpiska-botton">
-                <button type="submit" class="footer-podpiska-botton-modal">
-                  <span>Подписаться</span>
-                  <svg class="footer-podpiska-icon" width="24" height="24">
-                    <use href="./img/sprite.svg#icon-icon_send"></use>
-                  </svg>
-                </button>
-              </div>
+          <form class="footer-podpiska">
+            <div class="footer-podpiska-links">
+              <p class="footer-podpiska-title">подпишитесь на рассылку</p>
+              <label>
+                <input class="footer-podpiska-input-form" type="email" name="email" placeholder="E-mail" />
+              </label>
+            </div>
+            <div class="footer-podpiska-botton">
+              <button type="submit" class="footer-podpiska-botton-modal">
+                <span>Подписаться</span>
+                <svg class="footer-podpiska-icon" width="24" height="24">
+                  <use href="./img/sprite.svg#icon-icon_send"></use>
+                </svg>
+              </button>
             </div>
           </form>
         </div>
@@ -470,4 +546,3 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-

@@ -55,7 +55,20 @@ margin-left: -30px;
 }
 
 
+@media (min-width: 768px) {
 
+
+    .clients li {
+        width: calc(100% / 3 - 30px);
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .clients li {
+        width: calc(100% / 6 - 30px);
+    }
+}
 
 
 
