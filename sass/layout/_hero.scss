@@ -5,7 +5,7 @@
     font-weight: 900;
     line-height: 1.4;
     padding: 118px 0;
-    background-image: url(../../../img/mobile/title/hero_m.jpg);
+    background-image: url(../img/mobile/title/hero_m.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,13 +61,13 @@
 (min-width: 320px) and (min-resolution: 192dpi),
 (min-width: 320px) and (min-resolution: 2dppx) {
     .services {
-        background-image: url(../../../img/mobile/title/hero_m@2x.jpg);
+        background-image: url(../img/mobile/title/hero_m@2x.jpg);
     }
 }
 
 @media (min-width: 768px) {
     .services {
-        background-image: url(../../../img/tablet/title/header_t.jpg);
+        background-image: url(../img/tablet/title/header_t.jpg);
     }
 
 }
@@ -76,14 +76,14 @@
     (min-width: 768px) and (min-resolution: 192dpi),
     (min-width: 768px) and (min-resolution: 2dppx) {
             .services {
-                background-image: url(../../../img/tablet/title/header_t@2x.jpg);
+                background-image: url(../img/tablet/title/header_t@2x.jpg);
                 }
             }
 
 @media (min-width: 1200px) {
     .services {
         padding: 200px 252px;
-        background-image: url(../../../img/desktop/title/header_d.jpg);
+        background-image: url(../img/desktop/title/header_d.jpg);
     }
 
     .services-title {
@@ -97,7 +97,7 @@
 (min-width: 1200px) and (min-resolution: 192dpi),
 (min-width: 1200px) and (min-resolution: 2dppx) {
     .services {
-        background-image: url(../../../img/desktop/title/header_d@2x.jpg);
+        background-image: url(../img/desktop/title/header_d@2x.jpg);
     }
 }
 
