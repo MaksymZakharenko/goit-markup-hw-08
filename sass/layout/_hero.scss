@@ -5,7 +5,7 @@
     font-weight: 900;
     line-height: 1.4;
     padding: 118px 0;
-    background-image: url(../img/mobile/title/hero_m.jpg);
+    background-image: url(../img/mobile/title/header_m.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +61,7 @@
 (min-width: 320px) and (min-resolution: 192dpi),
 (min-width: 320px) and (min-resolution: 2dppx) {
     .services {
-        background-image: url(../img/mobile/title/hero_m@2x.jpg);
+        background-image: url(../img/mobile/title/header_m@2x.jpg);
     }
 }
 
