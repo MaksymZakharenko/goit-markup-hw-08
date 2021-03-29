@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/portfolio.min.css"/>
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!-- верхняя линия-->
@@ -22,7 +22,7 @@
           <ul class="nav-menu">
             <li class="nav-menu-li"><a href="./index.html" class="nav-menu-link">Студия</a></li>
             <li class="nav-menu-li"><a href="./portfolio.html" class="nav-menu-link active">Портфолио</a></li>
-            <li class="nav-menu-li"><a href="#" class="nav-menu-link">Контакты</a></li>
+            <li class="nav-menu-li"><a href="#footer-contact" class="nav-menu-link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="address-menu">
@@ -43,6 +43,58 @@
             >
           </li>
         </ul>
+        <button class="header-button-mobile" data-menu-button>
+          <svg width="40" height="40" class="mobile-open-icon">
+            <use href="./img/sprite.svg#icon-menu_mobile"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <button class="mobile-menu-close-btn" data-menu-close>
+          <svg class="mobile-menu-close-icon">
+            <use href="./img/sprite.svg#icon-close-mobile"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-contact">
+          <div>
+            <ul class="mobile-menu-list-link list">
+              <li class="mobile-menu-list-item-link link">
+                <a href="./index.html" class="mobile-menu-list-link link">Студия</a>
+              </li>
+              <li class="mobile-menu-list-item-link">
+                <a href="./portfolio.html" class="mobile-menu-list-link link">Портфолио</a>
+              </li>
+              <li class="mobile-menu-list-item-link">
+                <a href="#" class="mobile-menu-list-link link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="mobile-menu-list-contact list">
+              <li class="mobile-menu-list-item-contact link">
+                <a href="" class="mobile-menu-list-contact link">+38 096 111 11 11</a>
+              </li>
+              <li class="mobile-menu-list-item-contact">
+                <a href="" class="mobile-menu-list-contact link tel">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-list-social list">
+              <li class="mobile-menu-list-item-social link">
+                <a href="" class="mobile-menu-list-social link">Instagram</a>
+              </li>
+              <li class="mobile-menu-list-item-social">
+                <a href="" class="mobile-menu-list-social link">Twitter</a>
+              </li>
+              <li class="mobile-menu-list-item-social">
+                <a href="" class="mobile-menu-list-social link">Facebook</a>
+              </li>
+              <li class="mobile-menu-list-item-social">
+                <a href="" class="mobile-menu-list-social link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -62,9 +114,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/tehnokryak_d.jpg 1x, ./img/desktop//portfolio/tehnokryak_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/tehnokryak_t.jpg 1x, ./img/tablet//portfolio/tehnokryak_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/tehnokryak_m.jpg 1x, ./img/mobile/portfolio/tehnokryak_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/tehnokryak_d.jpg 1x, ./img/desktop//portfolio/tehnokryak_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/tehnokryak_t.jpg 1x, ./img/tablet//portfolio/tehnokryak_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/tehnokryak_m.jpg 1x, ./img/mobile/portfolio/tehnokryak_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/tehnokryak_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -84,9 +145,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/goldenstar_d.jpg 1x, ./img/desktop//portfolio/goldenstar_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/goldenstar_t.jpg 1x, ./img/tablet//portfolio/goldenstar_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/goldenstar_m.jpg 1x, ./img/mobile/portfolio/goldenstar_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/goldenstar_d.jpg 1x, ./img/desktop//portfolio/goldenstar_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/goldenstar_t.jpg 1x, ./img/tablet//portfolio/goldenstar_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/goldenstar_m.jpg 1x, ./img/mobile/portfolio/goldenstar_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/goldenstar_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -106,9 +176,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/seafood_d.jpg 1x, ./img/desktop//portfolio/seafood_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/seafood_t.jpg 1x, ./img/tablet//portfolio/seafood_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/seafood_m.jpg 1x, ./img/mobile/portfolio/seafood_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/seafood_d.jpg 1x, ./img/desktop//portfolio/seafood_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/seafood_t.jpg 1x, ./img/tablet//portfolio/seafood_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/seafood_m.jpg 1x, ./img/mobile/portfolio/seafood_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/seafood_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -128,9 +207,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/prime_d.jpg 1x, ./img/desktop//portfolio/prime_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/prime_t.jpg 1x, ./img/tablet//portfolio/prime_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/prime_m.jpg 1x, ./img/mobile/portfolio/prime_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/prime_d.jpg 1x, ./img/desktop//portfolio/prime_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/prime_t.jpg 1x, ./img/tablet//portfolio/prime_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/prime_m.jpg 1x, ./img/mobile/portfolio/prime_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/prime_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -150,9 +238,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/boxes_d.jpg 1x, ./img/desktop//portfolio/boxes_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/boxes_t.jpg 1x, ./img/tablet//portfolio/boxes_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/boxes_m.jpg 1x, ./img/mobile/portfolio/boxes_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/boxes_d.jpg 1x, ./img/desktop//portfolio/boxes_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/boxes_t.jpg 1x, ./img/tablet//portfolio/boxes_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/boxes_m.jpg 1x, ./img/mobile/portfolio/boxes_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/boxes_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -172,9 +269,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/borders_d.jpg 1x, ./img/desktop//portfolio/borders_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/borders_t.jpg 1x, ./img/tablet//portfolio/borders_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/borders_m.jpg 1x, ./img/mobile/portfolio/borders_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/borders_d.jpg 1x, ./img/desktop//portfolio/borders_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/borders_t.jpg 1x, ./img/tablet//portfolio/borders_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/borders_m.jpg 1x, ./img/mobile/portfolio/borders_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/borders_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -194,9 +300,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/limited_d.jpg 1x, ./img/desktop//portfolio/limited_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/limited_t.jpg 1x, ./img/tablet//portfolio/limited_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/limited_m.jpg 1x, ./img/mobile/portfolio/limited_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/limited_d.jpg 1x, ./img/desktop//portfolio/limited_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/limited_t.jpg 1x, ./img/tablet//portfolio/limited_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/limited_m.jpg 1x, ./img/mobile/portfolio/limited_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/limited_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -216,9 +331,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/lab_d.jpg 1x, ./img/desktop//portfolio/lab_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/lab_t.jpg 1x, ./img/tablet//portfolio/lab_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/lab_m.jpg 1x, ./img/mobile/portfolio/lab_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/lab_d.jpg 1x, ./img/desktop//portfolio/lab_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/lab_t.jpg 1x, ./img/tablet//portfolio/lab_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/lab_m.jpg 1x, ./img/mobile/portfolio/lab_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/lab_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -238,9 +362,18 @@
               <a href="./index.html" class="example-work-link">
                 <div class="example-work-wrapper">
                   <picture>
-                    <source srcset="./img/desktop/portfolio/growing_d.jpg 1x, ./img/desktop//portfolio/growing_d@2x.jpg 2x" media="(min-width: 1200px)">
-                    <source srcset="./img/tablet/portfolio/growing_t.jpg 1x, ./img/tablet//portfolio/growing_t@2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./img/mobile/portfolio/growing_m.jpg 1x, ./img/mobile/portfolio/growing_m@2x.jpg 2x" media="(min-width: 320px)" />
+                    <source
+                      srcset="./img/desktop/portfolio/growing_d.jpg 1x, ./img/desktop//portfolio/growing_d@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./img/tablet/portfolio/growing_t.jpg 1x, ./img/tablet//portfolio/growing_t@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./img/mobile/portfolio/growing_m.jpg 1x, ./img/mobile/portfolio/growing_m@2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
                     <img src="./img/mobile/portfolio/growing_m.jpg" alt="Product_Designer" class="example-work-wrapper-img" />
                   </picture>
                   <div class="example-work-link-text">
@@ -261,7 +394,7 @@
       </section>
     </main>
     <!--подвал-->
-   <footer>
+     <footer>
       <section class="section footer" id="footer-contact">
         <div class="container">
           <div class="footer-blok">
@@ -271,7 +404,7 @@
             <address class="footer-address">
               <ul class="footer-address-text">
                 <li class="footer-contact">
-                  <a href="https://goo.gl/maps/boytBuuAJyoT8WRG6" target="_blank" class="footer-address-link"
+                  <a href="https://goo.gl/maps/boytBuuAJyoT8WRG6" target="_blank" class="footer-address-text"
                     >г. Киев, пр-т Леси Украинки, 26</a
                   >
                 </li>
@@ -322,7 +455,7 @@
             </ul>
           </div>
           <form class="footer-podpiska">
-            <div class="footer-podpiska-links">
+            <div class="footer-podpiska-link">
               <p class="footer-podpiska-title">подпишитесь на рассылку</p>
               <label>
                 <input class="footer-podpiska-input-form" type="email" name="email" placeholder="E-mail" />
@@ -340,5 +473,8 @@
         </div>
       </section>
     </footer>
+
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
