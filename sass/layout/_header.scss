@@ -79,6 +79,7 @@
         padding: 48px 40px;
         transition: all 250ms linear;
         transform: translateX(-50%) translateY(-100%);
+        overflow: scroll;
 }
 
 .mobile-menu.is-open {

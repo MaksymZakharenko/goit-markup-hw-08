@@ -27,6 +27,7 @@
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    overflow: scroll;
 
     &-close-btn {
     position: absolute;
@@ -152,7 +153,6 @@
         }
 
         &-link {
-        padding-left: 3px;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -207,13 +207,18 @@
 
 @media (min-width: 768px) {
     .modal {
-        width: 50%;
-        height: auto;
+        width: 80%;
+        height: 60%;
+        max-width: 500px;
+        max-height: 609px;
     }
 }
 
 @media (min-width: 1200px) {
     .modal {
         width: 44%;
+        height: 57%;
+        max-width: 528px;
+        max-height: 581PX;
     }
 }
